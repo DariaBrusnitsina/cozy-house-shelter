@@ -1,0 +1,29 @@
+.start-screen {
+  padding-top: 22px;
+  display: flex;
+}
+
+.start-screen--content {
+  max-width: 460px;
+  padding-top: 160px;
+  margin-right: 41px;
+}
+
+.start-screen__heading-container {
+  max-width: 310px;
+}
+
+.start-screen__heading {
+  color: #FFFFFF;
+  font-size: 44px;
+  line-height: 130%;
+  margin-bottom: 42px;
+  font-weight: 400;
+}
+
+.start-screen--content__subheading {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 55px;
+  color: #CDCDCD;
+  line-height: 160%;
+}

@@ -1,0 +1,23 @@
+.pets--cards__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ourpets--card {
+  margin-bottom: 29px;
+}
+
+.ourpets-button-group {
+  display: flex;
+  column-gap: 20px;
+}
+
+.ourpets--cards {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.ourpets .container {
+  padding-bottom: 93px;
+}

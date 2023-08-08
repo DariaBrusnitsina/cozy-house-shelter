@@ -1,0 +1,48 @@
+/* 6. Donation  */
+.donation {
+  background: #F6F6F6;
+}
+
+.donation .container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.5%;
+}
+
+.donation--content {
+  max-width: 380px;
+}
+
+.donation--content__heading {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+
+.donation--content__subheading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 20px;
+}
+
+.donation--content__info {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}

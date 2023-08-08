@@ -1,0 +1,45 @@
+/* 5. Help  */
+.help {
+  background: #FFFFFF;
+}
+
+.help .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 45px;
+}
+
+.help--title {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 60px;
+}
+
+.help--list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 10%;
+}
+
+.help--item {
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help--item p {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}

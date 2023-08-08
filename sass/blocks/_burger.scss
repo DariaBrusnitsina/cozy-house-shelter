@@ -1,0 +1,136 @@
+@media screen and (max-width:767px) {
+
+  .header--row__nav {
+    display: none;
+  }
+  .nav-button {
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+  }
+
+  .nav-button__icon-3 {
+    /* margin-top: 4px; */
+    position: absolute;
+    z-index: 10;
+    /* content: ''; */
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #F1CDB3;
+    left: 0;
+    top: 0px;
+  }
+
+  .nav-button__icon-1 {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #F1CDB3;
+    left: 0;
+    top: -10px;
+  }
+
+  .nav-button__icon-2 {
+    position: absolute;
+    /* content: ''; */
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #F1CDB3;
+    left: 0;
+    top: 10px;
+  }
+
+  .ourpets-nav-button {
+    background-color: #000000;
+  }
+
+  .nav-button-close {
+    transform: rotate(-90deg);
+    transition: all 0.5s;
+  }
+
+  .nav-button-close .ourpets-nav-button {
+    background-color: #F1CDB3;
+  }
+  body {
+    /*filter: blur(1.17rem);*/
+  }
+  .mobile-nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 100vh;
+    background: #292929;
+    transition: opacity 0.3s ease-in;
+    justify-content: center;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: top right;
+    transition: .3s ease-in-out;
+  }
+
+  .shadow {
+    background-color: rgba(52, 51, 51, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+
+  }
+
+  .shadow-active {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    transition: opacity 0.3s ease-in;
+  }
+
+  .mobile-nav-active {
+    transition: all 0.5s;
+    opacity: 1;
+    transform: scaleX(1);
+    z-index: 5;
+    transition: opacity 0.3s ease-in;
+  }
+
+  .navigation-mobile {
+    margin-top: 185px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-list-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation-list-mobile li {
+    font-family: 'Arial';
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    color: #CDCDCD;
+    padding-bottom: 40px;
+  }
+
+  .navigation-list-mobile li > a {
+    padding-bottom: 7px;
+  }
+
+  .no-scroll {
+    overflow-y: hidden;
+  }
+}

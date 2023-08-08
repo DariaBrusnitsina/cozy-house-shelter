@@ -1,0 +1,62 @@
+/* 7. Footer  */
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.footer--content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 160px;
+}
+
+.footer--heading {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.footer--list__contact li{
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  column-gap: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  transition: all 0.3s ease-in;
+}
+
+.footer--list__contact li:hover{
+  color: #f0e9e4;
+  transition: all 0.3s ease-in;
+}
+
+.footer--list__places li{
+  display: flex;
+  align-items: center;
+  margin: 33px 0;
+  column-gap: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  transition: all 0.3s ease-in;
+}
+
+.footer--list__places li:hover{
+  color: #f0e9e4;
+  transition: all 0.3s ease-in;
+}
+
+.footer--heading-container {
+  max-width: 280px;
+}
+
